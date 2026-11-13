@@ -1,0 +1,31 @@
+# ---------- Web 框架 ----------
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+sse-starlette>=2.0
+
+# ---------- 中文处理 / 检索 ----------
+jieba>=0.42
+rank-bm25>=0.2.2
+faiss-cpu>=1.7.4
+numpy>=1.24
+
+# ---------- 模型（可选，离线环境会自动降级） ----------
+# sentence-transformers>=2.6   # 启用后自动加载 bge-large-zh / bge-reranker
+# torch>=2.2
+
+# ---------- 存储（可选，均有内存/SQLite 降级） ----------
+SQLAlchemy>=2.0
+PyMySQL>=1.1
+redis>=5.0
+elasticsearch>=8.12
+
+# ---------- LLM ----------
+openai>=1.30
+
+# ---------- 工具 ----------
+httpx>=0.27
+python-multipart>=0.0.9
+openpyxl>=3.1

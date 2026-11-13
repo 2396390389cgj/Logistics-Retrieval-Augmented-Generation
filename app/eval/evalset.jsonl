@@ -1,0 +1,200 @@
+{"query": "打火机可以寄顺丰吗？", "role": "customer_service", "expected_titles": ["顺丰承运商规则手册"], "answer_keywords": ["禁运"], "case_type": "knowledge"}
+{"query": "锂电池能单独寄吗？", "role": "customer_service", "expected_titles": ["全网禁运品通则", "顺丰锂电池专项规则"], "answer_keywords": ["100Wh"], "case_type": "knowledge"}
+{"query": "中通可以寄酒精吗", "role": "customer", "expected_titles": ["全网禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "活体动物能寄吗", "role": "customer", "expected_titles": ["全网禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通快递丢了没保价怎么赔？", "role": "customer_service", "expected_titles": ["中通快递承运商规则手册（2024 版）"], "answer_keywords": ["5 倍"], "case_type": "knowledge"}
+{"query": "未保价快件破损最高赔多少", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "客户说收到的件破损了，客服该怎么处理？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": ["24"], "case_type": "knowledge"}
+{"query": "破损赔付客诉什么时候升级到主管？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": ["48"], "case_type": "knowledge"}
+{"query": "上海到北京顺丰要几天？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": ["2"], "case_type": "knowledge"}
+{"query": "广州到成都京东物流几天到？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": ["2"], "case_type": "knowledge"}
+{"query": "深圳寄乌鲁木齐顺丰多久", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": ["4"], "case_type": "knowledge"}
+{"query": "浦东张江附近的顺丰网点在哪？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": ["科苑路"], "case_type": "knowledge"}
+{"query": "成都高新区有营业部吗", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": ["天府三街"], "case_type": "knowledge"}
+{"query": "那它多久到？", "history": [{"role": "user", "content": "顺丰上海到北京"}, {"role": "assistant", "content": "顺丰上海到北京跨省 2-3 天。"}], "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "这个怎么赔？", "history": [{"role": "user", "content": "中通快件丢失了"}, {"role": "assistant", "content": "中通未保价快件丢失按运费 5 倍赔付。"}], "role": "customer_service", "expected_titles": [], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "理赔的责任划分比例是多少？", "role": "customer", "expected_titles": [], "expected_chunks": [], "answer_keywords": [], "expect_clarify": true, "case_type": "clarify"}
+{"query": "赔付池超支了怎么处理？", "role": "customer_service", "expected_titles": [], "answer_keywords": [], "expect_clarify": true, "case_type": "clarify"}
+{"query": "你们的老板是谁？", "role": "customer_service", "answer_keywords": [], "expect_clarify": true, "case_type": "clarify"}
+{"query": "明天上海天气怎么样", "role": "customer_service", "answer_keywords": [], "expect_clarify": true, "case_type": "clarify"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰北京到哈尔滨要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰杭州到上海要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "北京附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰深圳到乌鲁木齐要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "广州附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰广州到成都要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "中通可以寄锂电池吗？", "role": "customer_service", "expected_titles": ["禁运品通则"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "京东破损了怎么申请赔付？", "role": "customer_service", "expected_titles": ["破损件客诉处理 SOP"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "深圳附近有营业网点吗？", "role": "customer", "expected_titles": ["网点表"], "answer_keywords": [], "case_type": "knowledge"}
+{"query": "顺丰上海到北京要多久？", "role": "customer", "expected_titles": ["时效表"], "answer_keywords": [], "case_type": "knowledge"}

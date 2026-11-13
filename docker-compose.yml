@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+  rag-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      MYSQL_URL: mysql+pymysql://root:root123@mysql:3306/logistics_rag?charset=utf8mb4
+      REDIS_URL: redis://redis:6379/0
+      ES_URL: http://elasticsearch:9200
+    depends_on:
+      - mysql
+      - redis
+      - elasticsearch
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: logistics_rag
+    ports:
+      - "3306:3306"
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.12.0
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+
+  # 模拟 TMS / OMS 接口（生产环境替换为真实系统网关）
+  mock-tms:
+    image: kennethreitz/httpbin
+    command: ["python", "-m", "httpbin"]
+    ports:
+      - "8001:80"
+
+  mock-oms:
+    image: kennethreitz/httpbin
+    command: ["python", "-m", "httpbin"]
+    ports:
+      - "8002:80"
